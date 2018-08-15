@@ -1,0 +1,12 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="/static/main.css" />
+  </head>
+  <body>
+    <ul>
+      {{range .Data}}    
+        <li><a href="{{index . 1}}">{{index . 0}}</a></li>
+      {{end}}
+    </ul>
+  </body>
+</html>
