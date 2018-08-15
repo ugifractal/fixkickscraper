@@ -9,6 +9,7 @@ import (
   "os"
   "path/filepath"
   "strings"
+  "log"
 )
 
 type Person struct{
